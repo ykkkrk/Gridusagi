@@ -22,9 +22,9 @@
         <Label Grid.Row="1" Grid.Column="1"  Text="DDD" BackgroundColor="AliceBlue"/>-->
 
         <ImageButton Grid.Row="1" Grid.Column="1" Clicked="ImageButton_Clicked" Source="usagichan.jpg"  WidthRequest="100" HeightRequest="100"/>
-        <ImageButton Grid.Row="0" Grid.Column="1" Source="usagichan.jpg"  WidthRequest="100" HeightRequest="100"/>
-        <ImageButton Grid.Row="1" Grid.Column="0" Source="usagichan.jpg"  WidthRequest="100" HeightRequest="100"/>
-        <ImageButton Grid.Row="0" Grid.Column="0" Source="usagichan.jpg"  WidthRequest="100" HeightRequest="100"/>
+        <ImageButton Grid.Row="0" Grid.Column="1"  Clicked="ImageButton_Clicked" Source="meimichan.jpg"  WidthRequest="100" HeightRequest="100"/>
+        <ImageButton Grid.Row="1" Grid.Column="0" Clicked="ImageButton_Clicked" Source="sakurachan.jpg"  WidthRequest="100" HeightRequest="100"/>
+        <ImageButton Grid.Row="0" Grid.Column="0" Clicked="ImageButton_Clicked" Source="doremichan.jpg"  WidthRequest="100" HeightRequest="100"/>
     </Grid>
 
 </ContentPage>

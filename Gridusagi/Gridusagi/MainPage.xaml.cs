@@ -16,7 +16,8 @@ namespace Gridusagi
 
         private void ImageButton_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("タイトル", "メッセージ", "OK");
+            
+            DisplayAlert("タイトル", ((ImageButton)sender).Source.ToString(), "OK");
         }
     }
 }
