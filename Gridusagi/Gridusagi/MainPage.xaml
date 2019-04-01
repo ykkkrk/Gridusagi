@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Gridusagi"
+             x:Class="Gridusagi.MainPage">
+
+    <Grid RowSpacing="0" ColumnSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <!--<Label Grid.Row="0" Grid.Column="1"  Text="AAA" BackgroundColor="Tomato"/>
+        <Label Grid.Row="1" Grid.Column="0"  Text="BBB" BackgroundColor="LawnGreen"/>
+        <Label Grid.Row="0" Grid.Column="0"  Text="CCC" BackgroundColor="Coral"/>
+        <Label Grid.Row="1" Grid.Column="1"  Text="DDD" BackgroundColor="AliceBlue"/>-->
+
+        <ImageButton Grid.Row="1" Grid.Column="1" Clicked="ImageButton_Clicked" Source="usagichan.jpg"  WidthRequest="100" HeightRequest="100"/>
+        <ImageButton Grid.Row="0" Grid.Column="1" Source="usagichan.jpg"  WidthRequest="100" HeightRequest="100"/>
+        <ImageButton Grid.Row="1" Grid.Column="0" Source="usagichan.jpg"  WidthRequest="100" HeightRequest="100"/>
+        <ImageButton Grid.Row="0" Grid.Column="0" Source="usagichan.jpg"  WidthRequest="100" HeightRequest="100"/>
+    </Grid>
+
+</ContentPage>
