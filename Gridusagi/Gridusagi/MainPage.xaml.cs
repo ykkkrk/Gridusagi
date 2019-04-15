@@ -16,8 +16,23 @@ namespace Gridusagi
 
         private void ImageButton_Clicked(object sender, EventArgs e)
         {
-            
-            DisplayAlert("タイトル", ((ImageButton)sender).Source.ToString(), "OK");
+
+            ///DisplayAlert("タイトル", ((ImageButton)sender).Source.ToString(), "OK");
+
+            var sum = Add(100, 200);
+            sum = Add(sum, sum);
+            DisplayAlert("足し算したよ",sum.ToString(), "OK");
+        }
+
+        /// <summary>
+        /// 足し算をする
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        int Add(int x, int y)
+        {
+            return x + y;
         }
     }
 }
